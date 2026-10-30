@@ -45,6 +45,8 @@ Experience 保留研究学生经历，便于后续加入工作经历；Honors & 
 
 头像交互参考 [David Heineman 网站的公开实现](https://github.com/davidheineman/davidheineman.com/blob/main/js/main.js)：悬停时在固定头像框内显示局部小图，移动鼠标可查看不同区域，移开恢复完整头像。本图网格为 192 列，采用 32 倍局部缩放，使框内横向约显示 6 张小图。取消放大弹窗及所有可见说明文字；高清素材未就绪时保留预览。键盘可用 Enter/Space 切换细节、方向键移动、Esc 恢复；触屏可按住查看，松开恢复，保留纵向页面滚动。
 
+缩放中心保持固定，位移与缩放统一使用 transform 过渡，并通过 will-change 提前准备合成层。鼠标事件只保存最新坐标，requestAnimationFrame 每帧合并一次布局读取与样式更新；高清图解码完成后才启用细节显示。系统的减少动态效果设置仍然生效。
+
 数据来源：[CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)，Alex Krizhevsky, *Learning Multiple Layers of Features from Tiny Images*, 2009。
 
 ### News 日期依据
