@@ -34,6 +34,7 @@ strong{font-weight:650}
 .profile-links{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 16px;margin-top:21px}
 .profile-links a{display:flex;align-items:center;gap:5px;font-size:14px}
 .profile-links .icon{width:19px;height:19px}
+.profile-links.resume-links{margin-top:10px;gap:10px 22px}
 .about-content>p{line-height:1.78}
 .about-content strong{font-weight:600}
 .about-details{display:grid;grid-template-columns:.85fr 1.3fr;gap:32px;margin-top:31px}

@@ -10,6 +10,8 @@
 - `campus-cifar10-preview.webp`：校园 CIFAR-10 拼图的 1024×768 网页预览。
 - `campus-cifar10-full.webp`：同一拼图的 6144×4608 高清版，页面打开后低优先级预加载。
 - `portrait.jpg`：此前的简历照片备份，主页不再使用。
+- `Wenjian_Ding_Resume.pdf`：作者提供的英文简历原文件，对应 Resume 链接。
+- `Wenjian_Ding_Resume_CN.pdf`：作者提供的中文简历原文件，对应中文简历链接。
 - `favicon.svg`：网页图标。
 - `.nojekyll`：按普通静态文件发布。
 
@@ -23,9 +25,11 @@
 
 直接编辑 `index.html`。论文按年份排列，姓名加粗，资源以 `[ paper 图标, code 图标 ]` 展示。添加真实链接后即可增加新的资源条目；没有公开地址的资源不显示。
 
-本版依据提供的 Resume.pdf 和用户补充制作：现任顺天堂大学特任助理教授，KBS 已录用。公开页面没有包含手机号、出生日期或原始 PDF。
+本版依据提供的 Resume.pdf 和用户补充制作：现任顺天堂大学特任助理教授，KBS 已录用。网页正文没有包含手机号或出生日期。按作者要求公开提供 Wenjian_Ding_Resume.pdf 和 Wenjian_Ding_Resume_CN.pdf，保留原文件内容。
 
 头像下的 Google Scholar 链接使用用户提供的个人主页：https://scholar.google.com/citations?user=DkeNqvoAAAAJ&hl=en 。
+
+Email、GitHub、Google Scholar 下方独立一行显示两个文档图标链接：Resume 打开英文 PDF，中文简历打开中文 PDF，均在新标签页打开。
 
 KBS 条目不显示单独的 Accepted 标签；代码按作者要求链接到与 LREC-COLING 2024 论文相同的 VQADG 仓库。News 记录所有带分区标签的 9 篇论文，会议和期刊名称加粗，不包含超链接，保留分区。消息精简为录用结果；两篇 IJCNN 论文合并为一条，使用“two papers were accepted”。
 
