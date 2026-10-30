@@ -24,11 +24,22 @@
 
 头像下的 Google Scholar 链接使用用户提供的个人主页：https://scholar.google.com/citations?user=DkeNqvoAAAAJ&hl=en 。
 
-KBS 条目不显示单独的 Accepted 标签；代码按作者要求链接到与 LREC-COLING 2024 论文相同的 VQADG 仓库。News 按年份记录所有带分区标签的 9 篇论文，没有推测具体录用月份。消息精简为录用结果；两篇 IJCNN 论文合并为一条，使用“two papers were accepted”。
+KBS 条目不显示单独的 Accepted 标签；代码按作者要求链接到与 LREC-COLING 2024 论文相同的 VQADG 仓库。News 记录所有带分区标签的 9 篇论文，会议和期刊名称加粗，不包含超链接，保留分区。消息精简为录用结果；两篇 IJCNN 论文合并为一条，使用“two papers were accepted”。
 
-About 使用两段：第一段合并当前任职、博士学位和研究学生经历；第二段概括多模态问答与生成研究、近期研究兴趣及合作邀请。杨征路链接到作者提供的 Google Scholar；孙哲链接到作者提供的顺天堂大学教员页。News 首条简述即将加入顺天堂大学 Faculty of Health Data Science 担任特任助理教授，未推测具体入职月份。
+About 使用两段：第一段合并当前任职、博士学位和研究学生经历；第二段概括多模态问答与生成研究、近期研究兴趣及合作邀请。孙哲关系按作者要求写为“supervised by”。杨征路链接到作者提供的 Google Scholar；孙哲链接到作者提供的顺天堂大学教员页。News 首条按作者提供的暂定时间标为 Nov 2026，以“I plan to join”表述加入顺天堂大学 Faculty of Health Data Science 担任特任助理教授。
 
-Research interests 仅保留作者指定的四项，并统一标题式大写：Reliable Diagnostic Reasoning、Multimodal Clinical Evidence Integration、Natural Language Processing、Multimodal Question Answering。Education 年份省略月份，放在大学名称右侧；桌面端两栏上下对齐。
+Research interests 仅保留作者指定的四项，并统一标题式大写：Reliable Diagnostic Reasoning、Multimodal Clinical Evidence Integration、Natural Language Processing、Multimodal Question Answering。Education 年份省略月份，以括号紧接大学名称，例如 Nankai University (2022–2026)；桌面端两栏上下对齐。
+
+### News 日期依据
+
+会议月份按官方录用通知日程推定，不等同于逐篇核验录用邮件；日期的 title 说明这一口径。KBS 和 Ad Hoc Networks 未找到确切录用月份，暂保留原年份，待作者补充。
+
+- ACM MM：Jul 2026，依据[官方主会日程](https://2026.acmmm.org/site/important-dates.html)。
+- IJCNN：Mar 2026，依据[会议专题征稿日程](https://aii-conf.org/ijcnn-ss/ijcnn2026-ss.html)。
+- Findings of ACL：May 2025，依据[ACL 官方日程](https://2025.aclweb.org/)。
+- EMNLP：Sep 2024，依据[EMNLP 官方日程](https://2024.emnlp.org/)。
+- LREC-COLING：Feb 2024，依据[官方日程](https://lrec-coling-2024.org/)。
+- Computers & Electrical Engineering：Oct 2021，依据[论文首页](https://ri.conicet.gov.ar/bitstream/handle/11336/148943/CONICET_Digital_Nro.20fd1505-7a05-4175-9f8a-91dc81706de7_A.pdf?isAllowed=y&sequence=2)的 Accepted 16 October 2021；Publications 继续使用正式出版年份 2022。
 
 ## 论文分区（2026-10-30 核对）
 
