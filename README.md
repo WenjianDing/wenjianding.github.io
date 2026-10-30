@@ -32,10 +32,11 @@ Research interests 仅保留作者指定的四项，并统一标题式大写：R
 
 ### News 日期依据
 
-会议月份按官方录用通知日程推定，不等同于逐篇核验录用邮件；日期的 title 说明这一口径。KBS 和 Ad Hoc Networks 未找到确切录用月份，暂保留原年份，待作者补充。
+KBS、ACM MM 和两篇 IJCNN 的录用月份由作者确认。其余会议月份按官方录用通知日程推定，不等同于逐篇核验录用邮件；日期的 title 说明这一口径。Ad Hoc Networks 未找到确切录用月份，暂保留原年份，待作者补充。
 
-- ACM MM：Jul 2026，依据[官方主会日程](https://2026.acmmm.org/site/important-dates.html)。
-- IJCNN：Mar 2026，依据[会议专题征稿日程](https://aii-conf.org/ijcnn-ss/ijcnn2026-ss.html)。
+- KBS：Aug 2026，作者确认。
+- ACM MM：Jul 2026，作者确认。
+- IJCNN（两篇）：Mar 2026，作者确认。
 - Findings of ACL：May 2025，依据[ACL 官方日程](https://2025.aclweb.org/)。
 - EMNLP：Sep 2024，依据[EMNLP 官方日程](https://2024.emnlp.org/)。
 - LREC-COLING：Feb 2024，依据[官方日程](https://lrec-coling-2024.org/)。
