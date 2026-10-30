@@ -26,9 +26,11 @@
 
 KBS 条目不显示单独的 Accepted 标签；代码按作者要求链接到与 LREC-COLING 2024 论文相同的 VQADG 仓库。News 记录所有带分区标签的 9 篇论文，会议和期刊名称加粗，不包含超链接，保留分区。消息精简为录用结果；两篇 IJCNN 论文合并为一条，使用“two papers were accepted”。
 
-About 使用两段：第一段合并当前任职、博士学位和研究学生经历；第二段概括多模态问答与生成研究、近期研究兴趣及合作邀请。孙哲关系按作者要求写为“supervised by”。杨征路链接到作者提供的 Google Scholar；孙哲链接到作者提供的顺天堂大学教员页。News 首条按作者提供的暂定时间标为 Nov 2026，以“I plan to join”表述加入顺天堂大学 Faculty of Health Data Science 担任特任助理教授。
+About 使用两段：第一段合并当前任职、博士学位和研究学生经历；第二段以“My work focuses on multimodal understanding and question-answer generation.”概括研究工作，再介绍近期研究兴趣及合作邀请。孙哲关系按作者要求写为“supervised by”。杨征路链接到作者提供的 Google Scholar；孙哲链接到作者提供的顺天堂大学教员页。News 首条按作者提供的暂定时间标为 Nov 2026，以“I plan to join”表述加入顺天堂大学 Faculty of Health Data Science 担任特任助理教授。
 
 Research interests 仅保留作者指定的四项，并统一标题式大写：Reliable Diagnostic Reasoning、Multimodal Clinical Evidence Integration、Natural Language Processing、Multimodal Question Answering。Education 年份省略月份，以括号紧接大学名称，例如 Nankai University (2022–2026)；桌面端两栏上下对齐。
+
+视觉主色使用深紫色 `#472573`，取自 [顺天堂大学英文官网](https://en.juntendo.ac.jp/)导航按钮的实际背景色（2026-10-30 核对）。链接与分区标签配套使用紫色，交替分区底色为淡紫白；标签页图标保留圆角紫底白字 WD。样式表和图标链接使用版本参数，避免浏览器继续显示旧蓝色缓存。
 
 ### News 日期依据
 
