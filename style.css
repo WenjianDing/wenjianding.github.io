@@ -34,13 +34,16 @@ strong{font-weight:650}
 .about-content>p{line-height:1.78}
 .about-content strong{font-weight:600}
 .about-details{display:grid;grid-template-columns:.85fr 1.3fr;gap:32px;margin-top:31px}
-.interests ul{padding-left:20px;margin:0;font-size:15px;line-height:1.7}
+.interests{display:flex;flex-direction:column}
+.interests ul{display:flex;flex-direction:column;justify-content:space-between;flex:1;padding-left:20px;margin:0;font-size:15px;line-height:1.7}
 .interests li{margin-bottom:5px}
+.interests li:last-child{margin-bottom:0}
 .education-item{display:flex;gap:11px;margin-bottom:18px}
 .education-item .icon{margin-top:2px;width:22px;height:22px;color:#545963}
 .education-item h4{font-size:15px;font-weight:500;line-height:1.4;margin-bottom:3px}
 .education-item p{font-size:13px;color:var(--muted);margin:0;line-height:1.5}
 .education-item span{font-size:12px;color:var(--muted)}
+.education-item:last-child{margin-bottom:0}
 .section{padding-block:66px}
 .shaded{background:var(--soft)}
 .section-grid{display:grid;grid-template-columns:285px minmax(0,1fr);gap:66px}
