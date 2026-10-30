@@ -60,10 +60,9 @@ time{font-variant-numeric:tabular-nums;color:var(--muted);font-size:14px;padding
 .venue{font-size:14px;line-height:1.65;margin-bottom:3px}
 .venue em{font-style:italic}
 .rank{display:inline-block;margin-left:5px;padding:0 6px;border:1px solid #dce1f1;border-radius:3px;color:var(--link);background:#f4f6fc;font-size:12px;font-weight:600;line-height:1.65;vertical-align:1px;white-space:nowrap}
-.status{font-style:normal;color:#26704f;font-weight:650;margin-left:4px;white-space:nowrap}
 .resources{font-size:14px;white-space:nowrap;color:#7c818a;display:inline-block;line-height:1.9}
 .resources a{font-weight:600;display:inline-flex;align-items:center;gap:5px}
-.resources .icon{width:14px;height:14px;stroke-width:1.8}
+.resources .icon{width:16px;height:16px;stroke-width:1.8}
 .separator{color:#7c818a}
 .experience-item h3{margin:0 0 6px;font-size:21px}
 .eyebrow{font-size:13px;color:var(--muted);margin-bottom:11px;letter-spacing:.035em}

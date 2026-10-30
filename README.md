@@ -24,6 +24,8 @@
 
 头像下的 Google Scholar 链接使用用户提供的个人主页：https://scholar.google.com/citations?user=DkeNqvoAAAAJ&hl=en 。
 
+KBS 条目不显示单独的 Accepted 标签；代码按作者要求链接到与 LREC-COLING 2024 论文相同的 VQADG 仓库。News 按年份记录所有带分区标签的 9 篇论文，没有推测具体录用月份。
+
 ## 论文分区（2026-10-30 核对）
 
 每篇只显示一项标注。SCI 使用中科院升级版大类分区，不使用 JCR Q1–Q4 或新锐分区。2022 年两篇期刊论文使用发表时分区；2026 年 KBS 使用可核实的 2025 年分区。具体口径写在标签的 `title` 提示中，不能把这些不同体系当成官方等价换算。
@@ -32,13 +34,14 @@
 | --- | --- |
 | Knowledge-Based Systems | SCI 一区 |
 | ACM MM | CCF-A |
+| Findings of ACL | CCF-A（作者指定展示口径，非 CCF 官方对 Findings 的评级） |
 | EMNLP 主会 | CCF-B |
 | LREC-COLING 2024 主会 | CCF-B |
 | IJCNN（两篇） | CCF-C |
 | Ad Hoc Networks（2022） | SCI 二区 |
 | Computers & Electrical Engineering（2022） | SCI 三区 |
 
-ACL Findings 不属于 CCF 目录认定的正式长文范围，因此不标 CCF-A。Computers 的官方收录为 ESCI，因此不标 SCI。没有适用标注的条目保持空白。
+ACL Findings 不属于 CCF 目录认定的正式长文范围。应作者明确要求，页面显示“Findings of ACL … CCF-A”，标签提示明确 CCF-A 指 ACL 主会等级、并非 CCF 官方对 Findings 的评级。Computers 的官方收录为 ESCI，因此不标 SCI。没有适用标注的条目保持空白。
 
 核对来源：
 - [CCF 官方目录与适用范围](https://www.ccf.org.cn/Academic_Evaluation/By_category/)，[2026 目录 PDF 镜像](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf)（ACM MM 第 47 页，EMNLP/COLING 第 58 页，IJCNN 第 60 页）。
@@ -47,3 +50,31 @@ ACL Findings 不属于 CCF 目录认定的正式长文范围，因此不标 CCF-
 - [Ad Hoc Networks 历年分区](https://www.zazhi.com.cn/sci/213977.html)，[2022 发表论文的院校标注](https://it.hebtu.edu.cn/dynamic/content.jsp?id=a94920e244dc4b6295acb13944200840)。
 - [Computers & Electrical Engineering 历年分区](https://www.zazhi.com.cn/sci/214008.html)。
 - [Computers 官方收录信息](https://www.mdpi.com/journal/Computers)。
+
+## 图标授权
+
+GitHub 猫头图标来自 [Primer Octicons](https://github.com/primer/octicons/blob/main/icons/mark-github-16.svg)，使用其 MIT License：
+
+```text
+MIT License
+
+Copyright (c) 2026 GitHub Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
