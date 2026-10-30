@@ -24,11 +24,11 @@
 
 头像下的 Google Scholar 链接使用用户提供的个人主页：https://scholar.google.com/citations?user=DkeNqvoAAAAJ&hl=en 。
 
-KBS 条目不显示单独的 Accepted 标签；代码按作者要求链接到与 LREC-COLING 2024 论文相同的 VQADG 仓库。News 按年份记录所有带分区标签的 9 篇论文，没有推测具体录用月份。
+KBS 条目不显示单独的 Accepted 标签；代码按作者要求链接到与 LREC-COLING 2024 论文相同的 VQADG 仓库。News 按年份记录所有带分区标签的 9 篇论文，没有推测具体录用月份。消息精简为录用结果；两篇 IJCNN 论文合并为一条，使用“two papers were accepted”。
 
-About 已按作者补充写明顺天堂大学 Faculty of Health Data Science、Himeno-Sun Lab 的特任助教身份和孙哲指导关系，并扩展已有研究方向与经历。杨征路链接到作者提供的 Google Scholar；孙哲链接到作者提供的顺天堂大学教员页。News 首条是 2026 年即将加入实验室的公告，未推测具体入职月份。
+About 使用两段：第一段合并当前任职、博士学位和研究学生经历；第二段概括多模态问答与生成研究、近期研究兴趣及合作邀请。杨征路链接到作者提供的 Google Scholar；孙哲链接到作者提供的顺天堂大学教员页。News 首条简述即将加入顺天堂大学 Faculty of Health Data Science 担任特任助理教授，未推测具体入职月份。
 
-About 移除了泛泛的视觉问答说明段落；Research interests 共 7 项，涵盖简历中已有研究主题，桌面端与 Education 上下对齐。
+Research interests 仅保留作者指定的四项，并统一标题式大写：Reliable Diagnostic Reasoning、Multimodal Clinical Evidence Integration、Natural Language Processing、Multimodal Question Answering。Education 年份省略月份，放在大学名称右侧；桌面端两栏上下对齐。
 
 ## 论文分区（2026-10-30 核对）
 
