@@ -18,7 +18,7 @@
       pointer = null;
     }
     const zoomed = ready && active;
-    const scale = zoomed ? 32 : 1;
+    const scale = zoomed ? 20 : 1;
     const moveX = (1 - scale) * x * rect.width;
     const moveY = (1 - scale) * y * rect.height;
     image.style.transform = `translate3d(${moveX}px, ${moveY}px, 0) scale(${scale})`;

@@ -25,7 +25,7 @@ strong{font-weight:650}
 .profile{text-align:center;padding-top:5px}
 .portrait-frame{display:block;width:100%;max-width:285px;aspect-ratio:4/3;margin:0 auto 20px;padding:0;border:0;border-radius:8px;overflow:hidden;background:var(--soft);cursor:zoom-in;touch-action:pan-y}
 .portrait-frame:focus-visible{outline:3px solid #f0b646;outline-offset:5px}
-.portrait{display:block;width:100%;height:auto;aspect-ratio:4/3;transform-origin:0 0;transform:translate3d(0,0,0) scale(1);transition:transform .25s ease-out;will-change:transform}
+.portrait{display:block;width:100%;height:auto;aspect-ratio:4/3;transform-origin:0 0;transform:translate3d(0,0,0) scale(1);transition:transform .35s ease-out;will-change:transform}
 .portrait-frame.is-zoomed{cursor:crosshair}
 .profile h1{font-size:31px;margin-bottom:10px}
 .role{color:#686f79;line-height:1.55;margin-bottom:10px;font-size:16px}
