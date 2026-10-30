@@ -6,9 +6,9 @@
 
 - `index.html`：个人简介、教育经历、11 篇论文和 Experience。
 - `style.css`：桌面与手机布局、文字及小图标链接样式。
-- `portrait.js`：点击照片打开大图、原尺寸查看拼图、关闭及键盘操作。
+- `portrait.js`：鼠标悬停时在头像框内查看局部小图，随鼠标移动，移开恢复。
 - `campus-cifar10-preview.webp`：校园 CIFAR-10 拼图的 1024×768 网页预览。
-- `campus-cifar10-full.webp`：同一拼图的 6144×4608 高清版，点击后才加载。
+- `campus-cifar10-full.webp`：同一拼图的 6144×4608 高清版，页面打开后低优先级预加载。
 - `portrait.jpg`：此前的简历照片备份，主页不再使用。
 - `favicon.svg`：网页图标。
 - `.nojekyll`：按普通静态文件发布。
@@ -43,7 +43,7 @@ Experience 保留研究学生经历，便于后续加入工作经历；Honors & 
 
 原校园高清拼图 JPEG 的 SHA-256：`c4a614b1049ceea6693e6f6a8a2c5045584d0daf13bc44ebeafaf8f8047f7da5`。
 
-点击照片打开放大窗口；View tiles (100%) 按原尺寸显示，可滚动查看；Fit image 恢复全图。支持关闭按钮、Esc 和点击遮罩关闭，并恢复照片链接的键盘焦点。无 JavaScript 时直接打开高清图。
+头像交互参考 [David Heineman 网站的公开实现](https://github.com/davidheineman/davidheineman.com/blob/main/js/main.js)：悬停时在固定头像框内显示局部小图，移动鼠标可查看不同区域，移开恢复完整头像。本图网格为 192 列，采用 32 倍局部缩放，使框内横向约显示 6 张小图。取消放大弹窗及所有可见说明文字；高清素材未就绪时保留预览。键盘可用 Enter/Space 切换细节、方向键移动、Esc 恢复；触屏可按住查看，松开恢复，保留纵向页面滚动。
 
 数据来源：[CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)，Alex Krizhevsky, *Learning Multiple Layers of Features from Tiny Images*, 2009。
 

@@ -10,8 +10,8 @@
   <meta property="og:type" content="website">
   <title>Wenjian Ding | Juntendo University</title>
   <link rel="icon" href="favicon.svg?v=purple-20261030" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css?v=mosaic-20261030">
-  <script src="portrait.js?v=20261030" defer></script>
+  <link rel="stylesheet" href="style.css?v=hover-20261030">
+  <script src="portrait.js?v=hover-20261030" defer></script>
 </head>
 <body id="top">
 <a class="skip-link" href="#main">Skip to content</a>
@@ -31,10 +31,9 @@
 <main id="main">
  <section class="about-section wrap" id="about" aria-labelledby="about-title">
   <aside class="profile" aria-label="Profile">
-   <a class="portrait-link" id="portrait-open" href="campus-cifar10-full.webp" aria-haspopup="dialog" aria-controls="portrait-dialog" aria-label="Enlarge CIFAR-10 campus portrait">
-    <img class="portrait" src="campus-cifar10-preview.webp" alt="Wenjian Ding at Juntendo University, composed of real CIFAR-10 image tiles" width="1024" height="768" fetchpriority="high">
-    <span class="portrait-caption">CIFAR-10 mosaic · Click to enlarge</span>
-   </a>
+   <button class="portrait-frame" id="portrait-frame" type="button" aria-label="View portrait details" aria-pressed="false">
+    <img class="portrait" src="campus-cifar10-preview.webp" data-detail-src="campus-cifar10-full.webp" alt="Wenjian Ding at Juntendo University" width="1024" height="768" fetchpriority="high" draggable="false">
+   </button>
    <h1>Wenjian Ding</h1>
    <p class="role">Specially Appointed <br>Assistant Professor</p>
    <p class="affiliation"><a href="https://en.juntendo.ac.jp/">Juntendo University</a></p>
@@ -106,14 +105,6 @@
   </article></div>
  </div></section>
 </main>
-<dialog id="portrait-dialog" class="mosaic-dialog" aria-labelledby="mosaic-title">
- <div class="mosaic-toolbar">
-  <h2 id="mosaic-title">CIFAR-10 campus portrait</h2>
-  <div class="mosaic-actions"><button id="mosaic-zoom" type="button" aria-pressed="false" disabled>View tiles (100%)</button><button id="mosaic-close" type="button" autofocus aria-label="Close enlarged portrait">Close ×</button></div>
- </div>
- <div id="mosaic-stage" class="mosaic-stage"><img id="mosaic-image" src="campus-cifar10-preview.webp" alt="Full campus portrait assembled from 27,648 CIFAR-10 tiles; use View tiles to inspect individual images" width="6144" height="4608" decoding="async"></div>
- <p class="mosaic-caption" id="mosaic-status" role="status">27,648 real CIFAR-10 tiles · 6144 × 4608</p>
-</dialog>
 <footer class="site-footer wrap"><p>© 2026 Wenjian Ding</p><a href="mailto:wjding@mail.nankai.edu.cn">wjding@mail.nankai.edu.cn</a><a class="back-top" href="#top">Back to top ↑</a></footer>
 </body>
 </html>
