@@ -4,9 +4,12 @@
 
 ## 文件
 
-- `index.html`：个人简介、教育经历、11 篇论文、研究经历和奖项。
+- `index.html`：个人简介、教育经历、11 篇论文和 Experience。
 - `style.css`：桌面与手机布局、文字及小图标链接样式。
-- `portrait.jpg`：从本人提供的简历中提取的照片。
+- `portrait.js`：点击照片打开大图、原尺寸查看拼图、关闭及键盘操作。
+- `campus-cifar10-preview.webp`：校园 CIFAR-10 拼图的 1024×768 网页预览。
+- `campus-cifar10-full.webp`：同一拼图的 6144×4608 高清版，点击后才加载。
+- `portrait.jpg`：此前的简历照片备份，主页不再使用。
 - `favicon.svg`：网页图标。
 - `.nojekyll`：按普通静态文件发布。
 
@@ -31,6 +34,18 @@ About 使用两段：第一段合并当前任职、博士学位和研究学生�
 Research interests 仅保留作者指定的四项，并统一标题式大写：Reliable Diagnostic Reasoning、Multimodal Clinical Evidence Integration、Natural Language Processing、Multimodal Question Answering。Education 年份省略月份，以括号紧接大学名称，例如 Nankai University (2022–2026)；桌面端两栏上下对齐。
 
 视觉主色使用深紫色 `#472573`，取自 [顺天堂大学英文官网](https://en.juntendo.ac.jp/)导航按钮的实际背景色（2026-10-30 核对）。链接与分区标签配套使用紫色，交替分区底色为淡紫白；标签页图标保留圆角紫底白字 WD。样式表和图标链接使用版本参数，避免浏览器继续显示旧蓝色缓存。
+
+Experience 保留研究学生经历，便于后续加入工作经历；Honors & awards 暂时移除。
+
+### 校园 CIFAR-10 拼图
+
+使用作者指定的最终校园版本，原照片已水平镜像以转正校名，保留完整 4:3 横向构图。192×144 网格由 27,648 块真实 CIFAR-10 图片组成，每块原始尺寸为 32×32；从官方 data_batch_1.bin 的 10,000 张图中选用了 4,882 种素材，允许重复，并做有限的逐块 RGB 调整，没有叠加原照片。网页版本仅做 WebP 编码以减小传输量，高清图保留 6144×4608 分辨率。
+
+原校园高清拼图 JPEG 的 SHA-256：`c4a614b1049ceea6693e6f6a8a2c5045584d0daf13bc44ebeafaf8f8047f7da5`。
+
+点击照片打开放大窗口；View tiles (100%) 按原尺寸显示，可滚动查看；Fit image 恢复全图。支持关闭按钮、Esc 和点击遮罩关闭，并恢复照片链接的键盘焦点。无 JavaScript 时直接打开高清图。
+
+数据来源：[CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)，Alex Krizhevsky, *Learning Multiple Layers of Features from Tiny Images*, 2009。
 
 ### News 日期依据
 
