@@ -21,3 +21,29 @@
 直接编辑 `index.html`。论文按年份排列，姓名加粗，资源以 `[ paper 图标, code 图标 ]` 展示。添加真实链接后即可增加新的资源条目；没有公开地址的资源不显示。
 
 本版依据提供的 Resume.pdf 和用户补充制作：现任顺天堂大学特任助理教授，KBS 已录用。公开页面没有包含手机号、出生日期或原始 PDF。
+
+头像下的 Google Scholar 链接使用用户提供的个人主页：https://scholar.google.com/citations?user=DkeNqvoAAAAJ&hl=en 。
+
+## 论文分区（2026-10-30 核对）
+
+每篇只显示一项标注。SCI 使用中科院升级版大类分区，不使用 JCR Q1–Q4 或新锐分区。2022 年两篇期刊论文使用发表时分区；2026 年 KBS 使用可核实的 2025 年分区。具体口径写在标签的 `title` 提示中，不能把这些不同体系当成官方等价换算。
+
+| 刊物或会议 | 显示标注 |
+| --- | --- |
+| Knowledge-Based Systems | SCI 一区 |
+| ACM MM | CCF-A |
+| EMNLP 主会 | CCF-B |
+| LREC-COLING 2024 主会 | CCF-B |
+| IJCNN（两篇） | CCF-C |
+| Ad Hoc Networks（2022） | SCI 二区 |
+| Computers & Electrical Engineering（2022） | SCI 三区 |
+
+ACL Findings 不属于 CCF 目录认定的正式长文范围，因此不标 CCF-A。Computers 的官方收录为 ESCI，因此不标 SCI。没有适用标注的条目保持空白。
+
+核对来源：
+- [CCF 官方目录与适用范围](https://www.ccf.org.cn/Academic_Evaluation/By_category/)，[2026 目录 PDF 镜像](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf)（ACM MM 第 47 页，EMNLP/COLING 第 58 页，IJCNN 第 60 页）。
+- [KBS 2025 中科院大类一区说明](https://jxxy.cqnu.edu.cn/info/1998/8442.htm)。
+- [LREC-COLING 2024 的 CCF-B 说明](https://cnic.cas.cn/gzdt/202404/t20240424_7131083.html)。
+- [Ad Hoc Networks 历年分区](https://www.zazhi.com.cn/sci/213977.html)，[2022 发表论文的院校标注](https://it.hebtu.edu.cn/dynamic/content.jsp?id=a94920e244dc4b6295acb13944200840)。
+- [Computers & Electrical Engineering 历年分区](https://www.zazhi.com.cn/sci/214008.html)。
+- [Computers 官方收录信息](https://www.mdpi.com/journal/Computers)。
