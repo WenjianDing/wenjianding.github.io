@@ -7,6 +7,7 @@
 - `index.html`：个人简介、教育经历、11 篇论文和 Experience。
 - `style.css`：桌面与手机布局、文字及小图标链接样式。
 - `portrait.js`：鼠标悬停时在头像框内查看局部小图，随鼠标移动，移开恢复。
+- `contact.js`：邮箱地址复制、失败时选中地址以便手动复制，以及邮箱面板关闭操作。
 - `campus-cifar10-preview.webp`：校园 CIFAR-10 拼图的 1024×768 网页预览。
 - `campus-cifar10-full.webp`：同一拼图的 6144×4608 高清版，页面打开后低优先级预加载。
 - `portrait.jpg`：此前的简历照片备份，主页不再使用。
@@ -30,6 +31,8 @@
 头像下的 Google Scholar 链接使用用户提供的个人主页：https://scholar.google.com/citations?user=DkeNqvoAAAAJ&hl=en 。
 
 Email、GitHub、Google Scholar 下方独立一行显示两个文档图标链接：Resume 打开英文 PDF，中文简历打开中文 PDF，均在新标签页打开。
+
+网页联系邮箱使用作者更新的 w.ding.et@juntendo.ac.jp。点击 Email 在页内展开完整地址，支持复制地址和打开邮件应用；未允许剪贴板访问时会选中地址供手动复制。页脚邮箱同步更新。中英文简历 PDF 保持提供的原文件。
 
 KBS 条目不显示单独的 Accepted 标签；代码按作者要求链接到与 LREC-COLING 2024 论文相同的 VQADG 仓库。News 记录所有带分区标签的 9 篇论文，会议和期刊名称加粗，不包含超链接，保留分区。消息精简为录用结果；两篇 IJCNN 论文合并为一条，使用“two papers were accepted”。
 
@@ -67,7 +70,7 @@ KBS、ACM MM 和两篇 IJCNN 的录用月份由作者确认。其余会议月份
 
 ## 论文分区（2026-10-30 核对）
 
-每篇只显示一项标注。SCI 使用中科院升级版大类分区，不使用 JCR Q1–Q4 或新锐分区。2022 年两篇期刊论文使用发表时分区；2026 年 KBS 使用可核实的 2025 年分区。具体口径写在标签的 `title` 提示中，不能把这些不同体系当成官方等价换算。
+每篇只显示一项标注。SCI 使用中科院升级版大类分区，不使用 JCR Q1–Q4 或新锐分区。Computers & Electrical Engineering 使用发表时分区；Ad Hoc Networks 按作者 2026-10-31 的更正，在 News 和 Publications 中均标为 SCI 三区；2026 年 KBS 使用可核实的 2025 年分区。具体口径写在标签的 `title` 提示中，不能把这些不同体系当成官方等价换算。
 
 | 刊物或会议 | 显示标注 |
 | --- | --- |
@@ -77,7 +80,7 @@ KBS、ACM MM 和两篇 IJCNN 的录用月份由作者确认。其余会议月份
 | EMNLP 主会 | CCF-B |
 | LREC-COLING 2024 主会 | CCF-B |
 | IJCNN（两篇） | CCF-C |
-| Ad Hoc Networks（2022） | SCI 二区 |
+| Ad Hoc Networks（2022） | SCI 三区 |
 | Computers & Electrical Engineering（2022） | SCI 三区 |
 
 ACL Findings 不属于 CCF 目录认定的正式长文范围。应作者明确要求，页面显示“Findings of ACL … CCF-A”，标签提示明确 CCF-A 指 ACL 主会等级、并非 CCF 官方对 Findings 的评级。Computers 的官方收录为 ESCI，因此不标 SCI。没有适用标注的条目保持空白。
@@ -86,7 +89,7 @@ ACL Findings 不属于 CCF 目录认定的正式长文范围。应作者明确�
 - [CCF 官方目录与适用范围](https://www.ccf.org.cn/Academic_Evaluation/By_category/)，[2026 目录 PDF 镜像](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf)（ACM MM 第 47 页，EMNLP/COLING 第 58 页，IJCNN 第 60 页）。
 - [KBS 2025 中科院大类一区说明](https://jxxy.cqnu.edu.cn/info/1998/8442.htm)。
 - [LREC-COLING 2024 的 CCF-B 说明](https://cnic.cas.cn/gzdt/202404/t20240424_7131083.html)。
-- [Ad Hoc Networks 历年分区](https://www.zazhi.com.cn/sci/213977.html)，[2022 发表论文的院校标注](https://it.hebtu.edu.cn/dynamic/content.jsp?id=a94920e244dc4b6295acb13944200840)。
+- Ad Hoc Networks：按作者 2026-10-31 更正为 SCI 三区。
 - [Computers & Electrical Engineering 历年分区](https://www.zazhi.com.cn/sci/214008.html)。
 - [Computers 官方收录信息](https://www.mdpi.com/journal/Computers)。
 

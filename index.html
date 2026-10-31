@@ -10,8 +10,9 @@
   <meta property="og:type" content="website">
   <title>Wenjian Ding | Juntendo University</title>
   <link rel="icon" href="favicon.svg?v=purple-20261030" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css?v=resumes-20261030">
+  <link rel="stylesheet" href="style.css?v=contact-20261031">
   <script src="portrait.js?v=hover20-20261030" defer></script>
+  <script src="contact.js?v=20261031" defer></script>
 </head>
 <body id="top">
 <a class="skip-link" href="#main">Skip to content</a>
@@ -39,7 +40,14 @@
    <p class="affiliation"><a href="https://en.juntendo.ac.jp/">Juntendo University</a></p>
    <p class="role-native" lang="ja">順天堂大学 · 特任助教</p>
    <div class="profile-links">
-    <a href="mailto:wjding@mail.nankai.edu.cn"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-mail"></use></svg><span>Email</span></a>
+    <details class="email-contact" id="email-contact">
+     <summary title="w.ding.et@juntendo.ac.jp"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-mail"></use></svg><span>Email</span></summary>
+     <div class="email-panel">
+      <input id="email-address" type="text" readonly value="w.ding.et@juntendo.ac.jp" aria-label="Email address" spellcheck="false">
+      <div class="email-actions"><button id="copy-email" type="button" hidden>Copy email</button><a href="mailto:w.ding.et@juntendo.ac.jp">Open mail app</a></div>
+      <p id="email-status" role="status"></p>
+     </div>
+    </details>
     <a href="https://github.com/WenjianDing" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-code"></use></svg><span>GitHub</span></a>
     <a href="https://scholar.google.com/citations?user=DkeNqvoAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-grad"></use></svg><span>Google Scholar</span></a>
    </div>
@@ -72,7 +80,7 @@
    <li><time datetime="2025-05" title="Based on the conference's acceptance notification schedule">May 2025</time><span>Our paper was accepted to <strong>Findings of ACL</strong> <span class="rank" title="按作者指定的展示口径标注；CCF-A 指 ACL 主会等级，CCF 官方目录不包含 Findings">CCF-A</span>.</span></li>
    <li><time datetime="2024-09" title="Based on the conference's acceptance notification schedule">Sep 2024</time><span>Our paper was accepted to <strong>EMNLP</strong> <span class="rank" title="CCF 推荐目录：EMNLP 主会长文，B 类会议">CCF-B</span>.</span></li>
    <li><time datetime="2024-02" title="Based on the conference's acceptance notification schedule">Feb 2024</time><span>Our paper was accepted to <strong>LREC-COLING</strong> <span class="rank" title="COLING：CCF B 类；LREC-COLING 2024 主会长文">CCF-B</span>.</span></li>
-   <li><time datetime="2022">2022</time><span>Our paper was accepted to <strong>Ad Hoc Networks</strong> <span class="rank" title="发表时分区（2022）：中科院升级版，计算机科学大类二区">SCI 二区</span>.</span></li>
+   <li><time datetime="2022">2022</time><span>Our paper was accepted to <strong>Ad Hoc Networks</strong> <span class="rank" title="中科院分区：三区">SCI 三区</span>.</span></li>
    <li><time datetime="2021-10">Oct 2021</time><span>Our paper was accepted to <strong>Computers &amp; Electrical Engineering</strong> <span class="rank" title="发表时分区（2022）：中科院升级版，计算机科学大类三区">SCI 三区</span>.</span></li>
   </ul></div>
  </div></section>
@@ -94,7 +102,7 @@
 <article class="paper"><h4>Can We Learn Question, Answer, and Distractors All from an Image? A New Task for Multiple-Choice Visual Question Answering</h4><p class="authors"><strong>Wenjian Ding</strong>, Yao Zhang, Jun Wang, Adam Jatowt, Zhenglu Yang</p><p class="venue"><em>LREC-COLING</em>, 2024. <span class="rank" title="COLING：CCF B 类；LREC-COLING 2024 主会长文">CCF-B</span></p><span class="resources">[ <a href="https://aclanthology.org/2024.lrec-main.254/" target="_blank" rel="noopener noreferrer" aria-label="Paper: Can We Learn Question, Answer, and Distractors All from an Image? A New Task for Multiple-Choice Visual Question Answering">paper <svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-paper"></use></svg></a><span class="separator">, </span><a href="https://github.com/WenjianDing/VQADG" target="_blank" rel="noopener noreferrer" aria-label="Code: Can We Learn Question, Answer, and Distractors All from an Image? A New Task for Multiple-Choice Visual Question Answering">code <svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-code"></use></svg></a> ]</span></article>
 </div></section>
 <section class="publication-year" aria-labelledby="year-2022"><h3 id="year-2022">2022</h3><div class="year-papers">
-<article class="paper"><h4>Deep Convolutional Recurrent Model for Region Recommendation with Spatial and Temporal Contexts</h4><p class="authors">Hengpeng Xu, <strong>Wenjian Ding</strong>, Wei Shen, Jun Wang, Zhenglu Yang</p><p class="venue"><em>Ad Hoc Networks</em>, 2022. <span class="rank" title="发表时分区（2022）：中科院升级版，计算机科学大类二区">SCI 二区</span></p><span class="resources">[ <a href="https://doi.org/10.1016/j.adhoc.2021.102545" target="_blank" rel="noopener noreferrer" aria-label="Paper: Deep Convolutional Recurrent Model for Region Recommendation with Spatial and Temporal Contexts">paper <svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-paper"></use></svg></a> ]</span></article>
+<article class="paper"><h4>Deep Convolutional Recurrent Model for Region Recommendation with Spatial and Temporal Contexts</h4><p class="authors">Hengpeng Xu, <strong>Wenjian Ding</strong>, Wei Shen, Jun Wang, Zhenglu Yang</p><p class="venue"><em>Ad Hoc Networks</em>, 2022. <span class="rank" title="中科院分区：三区">SCI 三区</span></p><span class="resources">[ <a href="https://doi.org/10.1016/j.adhoc.2021.102545" target="_blank" rel="noopener noreferrer" aria-label="Paper: Deep Convolutional Recurrent Model for Region Recommendation with Spatial and Temporal Contexts">paper <svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-paper"></use></svg></a> ]</span></article>
 <article class="paper"><h4>Tensor Completion Algorithms for Estimating Missing Values in Multi-channel Audio Signals</h4><p class="authors"><strong>Wenjian Ding</strong>, Zhe Sun, Xingxing Wu, Jordi Sole-Casals, Cesar F. Caiafa, Zhenglu Yang</p><p class="venue"><em>Computers &amp; Electrical Engineering</em>, 2022. <span class="rank" title="发表时分区（2022）：中科院升级版，计算机科学大类三区">SCI 三区</span></p><span class="resources">[ <a href="https://doi.org/10.1016/j.compeleceng.2021.107561" target="_blank" rel="noopener noreferrer" aria-label="Paper: Tensor Completion Algorithms for Estimating Missing Values in Multi-channel Audio Signals">paper <svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-paper"></use></svg></a> ]</span></article>
 </div></section></div>
  </div></section>
@@ -112,6 +120,6 @@
   </article></div>
  </div></section>
 </main>
-<footer class="site-footer wrap"><p>© 2026 Wenjian Ding</p><a href="mailto:wjding@mail.nankai.edu.cn">wjding@mail.nankai.edu.cn</a><a class="back-top" href="#top">Back to top ↑</a></footer>
+<footer class="site-footer wrap"><p>© 2026 Wenjian Ding</p><a href="mailto:w.ding.et@juntendo.ac.jp">w.ding.et@juntendo.ac.jp</a><a class="back-top" href="#top">Back to top ↑</a></footer>
 </body>
 </html>

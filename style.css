@@ -31,10 +31,21 @@ strong{font-weight:650}
 .role{color:#686f79;line-height:1.55;margin-bottom:10px;font-size:16px}
 .affiliation{margin-bottom:5px;font-size:17px}
 .role-native{font-size:13px;color:var(--muted);margin-bottom:22px;letter-spacing:.025em}
-.profile-links{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 16px;margin-top:21px}
+.profile-links{position:relative;display:flex;flex-wrap:wrap;justify-content:center;gap:10px 16px;margin-top:21px}
 .profile-links a{display:flex;align-items:center;gap:5px;font-size:14px}
 .profile-links .icon{width:19px;height:19px}
 .profile-links.resume-links{margin-top:10px;gap:10px 22px}
+.email-contact summary{display:flex;align-items:center;gap:5px;font-size:14px;color:var(--link);cursor:pointer;list-style:none}
+.email-contact summary::-webkit-details-marker{display:none}
+.email-contact summary:hover{text-decoration:underline;text-underline-offset:4px}
+.email-panel{position:absolute;z-index:5;top:calc(100% + 8px);left:50%;transform:translateX(-50%);width:285px;max-width:100%;padding:14px;background:white;border:1px solid var(--line);border-radius:8px;box-shadow:0 5px 20px #32195520;text-align:left}
+.email-panel input{width:100%;padding:8px;border:1px solid var(--line);border-radius:4px;background:var(--soft);color:var(--ink);font:inherit;font-size:13px;line-height:1.5;user-select:all}
+.email-actions{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:10px}
+.email-actions button{padding:5px 9px;border:1px solid var(--line);border-radius:4px;background:var(--soft);color:var(--link);font:inherit;font-size:12px;cursor:pointer}
+.email-actions a{font-size:12px}
+.email-contact summary:focus-visible,.email-panel input:focus-visible,.email-actions button:focus-visible{outline:3px solid #f0b646;outline-offset:3px}
+#email-status{font-size:12px;line-height:1.5;color:var(--muted);margin:8px 0 0}
+#email-status:empty{display:none}
 .about-content>p{line-height:1.78}
 .about-content strong{font-weight:600}
 .about-details{display:grid;grid-template-columns:.85fr 1.3fr;gap:32px;margin-top:31px}
